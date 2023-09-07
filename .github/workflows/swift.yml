@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: yume190/ActionTest@0.0.5
+    - uses: yume190/LeakDetect@0.0.5
       with:
         module: LeakDetectorDemo
         file: LeakDetectorDemo.xcworkspace
